@@ -1,9 +1,5 @@
-import Image from 'next/image'
+import TopicList from "./components/TopicList";
 
 export default function Home() {
-  return (
-     <div className="flex text-white">
-        hello
-     </div>
-  )
+  return <TopicList />;
 }
